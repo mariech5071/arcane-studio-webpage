@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 
 const Sidebar = ({
   isOpen,
@@ -33,19 +33,29 @@ const Sidebar = ({
 
         <ul className="sidebar-nav text-center leading-relaxed text-xl">
           <li>
-            <Link href="/about" onClick={toggle}>
-              <p>About Us</p>
-            </Link>
+            <a href="/home" onClick={toggle}>
+              <p>Home</p>
+            </a>
           </li>
           <li>
-            <Link href="/services" onClick={toggle}>
+            <a href="/catalog" onClick={toggle}>
+              <p>Catalog</p>
+            </a>
+          </li>
+          <li>
+            <a href="/services" onClick={toggle}>
               <p>Services</p>
-            </Link>
+            </a>
+          </li>
+          <li> 
+            <a href="/about" onClick={toggle}>
+              <p>About</p>
+            </a>
           </li>
           <li>
-            <Link href="/contacts" onClick={toggle}>
-              <p>Contacts</p>
-            </Link>
+            <a href="/contact" onClick={toggle}>
+              <p>Contact</p>
+              </a>
           </li>
         </ul>
       </div>
