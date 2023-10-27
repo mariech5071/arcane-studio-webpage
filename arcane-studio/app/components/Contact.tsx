@@ -20,10 +20,14 @@ const Contact: FC = () => {
     sendEmail(data);
   }
   return (
-    <div className='bg-gray-400'>
-      <div className='text-center pt-5 text-3xl font-bold w-1/2 float-left' id='contact'>Contact</div>
-      <div className='w-1/2 float-right'>
-        <form onSubmit={handleSubmit(onSubmit)} className=' border rounded-md p-5 m-2'>
+    <div className='bg-zinc-600 grid grid-cols-1 lg:grid-cols-2 p-3'>
+      <div className=' pt-5  text-white flex flex-col items-center lg:items-left justify-center' id='contact'>
+        <h1 className='text-3xl font-bold pb-3'>Contact Us</h1>
+        <p className='font-bold'>info@arcanestudio.com</p>
+        <p>Enter your information to contact us!</p>
+      </div>
+      <div>
+        <form onSubmit={handleSubmit(onSubmit)} className=' border rounded-md p-5 m-2 bg-white'>
           <div className='w-full flex flex-col'>
             <label htmlFor='name'>Name</label>
             <input className='border border-gray-400 rounded-md' required type='text' id='name'></input>
@@ -38,9 +42,9 @@ const Contact: FC = () => {
           </div>
           <div className='w-full flex flex-col'>
             <label htmlFor='message'>Message</label>
-            <input className=' border border-gray-400 rounded-md' required type='text' id='message'></input>
+            <textarea className=' border border-gray-400 rounded-md' required rows={3}  id='message'></textarea>
           </div>
-          <button type='submit' className='hover:shadow-form rounded-md bg-purple-500 py-3 px-8 text-base font-semibold text-white outline-none'>Submit</button>
+          <button type='submit' className='hover:shadow-form rounded-md bg-zinc-600 py-3 px-5 mt-5 text-base font-semibold text-white outline-none'>Submit</button>
         </form>
       </div>
     </div>
