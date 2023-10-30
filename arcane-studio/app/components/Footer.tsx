@@ -6,10 +6,10 @@ const Footer = () => {
     <div className=' bg-black text-white p-8'>
         <div className='flex justify-between'>
             <h1 className='p-3'>Arcane Studios</h1>
-            <div className='flex'>
-                <p className='p-3 float-left'>Follow Us
-                    <img className='w-8 float-right ml-3' src='/images/InstagramLogo.png'></img>
-                </p>
+            <div className='flex items-center'>
+                <p className='p-3 float-left'>Follow Us</p>
+                <img className='w-8 float-right ml-3' src='/images/InstagramLogo.png'></img> 
+                <img className='w-8 float-right ml-3' src='/images/LinkedinLogo.png'></img> 
             </div>
         </div>
         <hr className='decoration-white'></hr>

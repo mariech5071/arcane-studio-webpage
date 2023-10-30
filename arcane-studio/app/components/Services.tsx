@@ -4,9 +4,12 @@ import React from "react";
 const Services = () => {
   return (
    <div id='services'>
+      <br></br>
+      <br></br>
+      <br></br>
       <div className='text-center pt-5 text-3xl font-bold'>Our Services</div>
       <p className='tex-center m-8' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. Quis enim lobortis scelerisque fermentum.</p>
-    <div className='m-4 p-8 grid grid-cols-1 md:grid-cols-2 '>
+    <div className='mx-12 p-8 md:p-0 grid grid-cols-1 md:grid-cols-2 '>
         <img src='/images/Robot.jpg' className='w-80 md:inline-block m-auto hidden'></img>
         <div className='flex flex-col justify-center items-left'>
           <div className='bg-white border-4 rounded-md shadow-gray-500/40'>
@@ -15,7 +18,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className='m-4 p-8 grid grid-cols-1 md:grid-cols-2'>
+      <div className='mx-12 p-8 md:p-0 grid grid-cols-1 md:grid-cols-2'>
         <div className='flex flex-col justify-center items-left'>
           <div className='bg-white border-4 rounded-md shadow-gray-500/40'>
             <h1 className='m-6 font-semibold text-2xl'>Service 2</h1>
@@ -24,7 +27,7 @@ const Services = () => {
         </div>
         <img src='/images/Videogames.jpg' className='w-80 md:inline-block m-auto hidden'></img>
       </div>
-      <div className='m-4 p-8 grid grid-cols-1 md:grid-cols-2'>
+      <div className='mx-12 p-8 md:p-0 grid grid-cols-1 md:grid-cols-2'>
         <img src='/images/Designing.jpg' className='w-80 md:inline-block m-auto hidden'></img>
         <div className='flex flex-col justify-center items-left'>
           <div className='bg-white border-4 rounded-md shadow-gray-500/40'>
@@ -33,7 +36,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className='m-4 p-8 grid grid-cols-1 md:grid-cols-2'>
+      <div className='mx-12 p-8 md:p-0 grid grid-cols-1 md:grid-cols-2'>
         <div className='flex flex-col justify-center items-left'>
           <div className='bg-white border-4 rounded-md shadow-gray-500/40'>
             <h1 className='m-6 font-semibold text-2xl'>Service 4</h1>
