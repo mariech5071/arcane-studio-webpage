@@ -5,9 +5,12 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
       <div className="w-full h-20 bg-zinc-600 sticky top-0">
-        <div className="container mx-auto px-4 h-full">
+        <div className="container px-1 h-full">
           <div className="flex justify-between items-center h-full">
-            <Logo />
+            <div className='flex'>
+              <Logo></Logo>
+              <h1 className='float-left text-white font-semibold text-lg lg:text-4xl mx-4'>Arcane Studio</h1>
+            </div>
             <button
               type="button"
               className="inline-flex items-center md:hidden"

@@ -3,6 +3,7 @@ import Catalog from './components/Catalog';
 import Services from './components/Services';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 export default function Dashboard() {
@@ -14,6 +15,7 @@ export default function Dashboard() {
         <Services></Services>
         <About></About>
         <Contact></Contact>
+        <Footer></Footer>
         
       </div>
     </>
