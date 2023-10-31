@@ -9,7 +9,7 @@ const Services = () => {
     <div className='md:mx-12 mx-0 p-8 md:p-0 grid grid-cols-1 md:grid-cols-2 '>
         <img src='/images/Programming.jpg' className='w-80 md:inline-block m-auto hidden'></img>
         <div className='flex flex-col justify-center items-left'>
-          <div className='bg-white border-4 rounded-md shadow-gray-500/40 hover:scale-110'>
+          <div className='bg-white border-4 rounded-md shadow-gray-500/40 hover:scale-110 z-0'>
             <h1 className='m-6 font-semibold text-2xl '>Service 1</h1>
             <p className='ml-4 mb-4 mr-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu.</p>
           </div>
