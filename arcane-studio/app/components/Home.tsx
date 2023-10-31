@@ -4,7 +4,6 @@ import React from "react";
 const Home = () => {
   return (
   <div className="md:bg-[url('/images/Home.jpg')] bg-[url('/images/Home2.png')] w-full h-60 md:h-full bg-cover pt-20" id='home'>
-      <br></br>
       <h1 className='text-white font-semibold px-8 pt-8 text-6xl md:visible invisible' >Virtual Reality</h1>
       <p className='text-white text-lg px-8 pt-4 pb-10 md:visible invisible'>create your own experience</p>
       <div className='grid md:grid-cols-5 grid-cols-2'>
@@ -16,7 +15,7 @@ const Home = () => {
           <h2 className='text-base text-white font-semibold px-4 md:visible invisible' >Service</h2>
           <p className='text-white p-4 md:visible invisible'>Lorem ipsum dolor sit amet, dolore magna aliqua. Massa tincidunt dui ut ornare.</p>
         </div>
-      </div>
+    </div>
   </div>
   )
 };

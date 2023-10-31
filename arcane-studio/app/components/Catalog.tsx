@@ -3,8 +3,8 @@ import React from "react";
 //This is the catalog component, when Catalog is clicked it will bring you to the catalog part of the website where the items os the business are displayed.
 const Catalog = () => {
   return ( 
-    <div className='pt-20' id='catalog'>
-        <div className='text-center text-4xl font-bold mb-14'>Discover our catalog</div>
+    <div id='catalog'>
+        <div className='text-center text-4xl font-bold mb-14 pt-40 -mt-20'>Discover our catalog</div>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 place-items-center px-6'>
           <div>
             <img src='/images/VR-01.png' className='w-full'></img>
