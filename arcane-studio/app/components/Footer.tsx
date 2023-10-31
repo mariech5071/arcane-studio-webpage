@@ -8,8 +8,8 @@ const Footer = () => {
             <h1 className='p-3'>Arcane Studios</h1>
             <div className='flex items-center'>
                 <p className='p-3 float-left'>Follow Us</p>
-                <img className='w-8 float-right ml-3' src='/images/InstagramLogo.png'></img> 
-                <img className='w-8 float-right ml-3' src='/images/LinkedinLogo.png'></img> 
+                <a href='https://www.instagram.com/good.luck.bryan/' target='_blank'><img className='w-8 float-right ml-3' src='/images/InstagramLogo.png' ></img></a>
+                <a href='https://www.linkedin.com/in/hernandezbryanho/' target='_blank'><img className='w-8 float-right ml-3' src='/images/linkedin.png'></img></a> 
             </div>
         </div>
         <hr className='decoration-white'></hr>

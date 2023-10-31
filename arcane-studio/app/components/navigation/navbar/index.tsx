@@ -4,7 +4,7 @@ import Logo from "./Logo";
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
-      <div className="w-full h-20 bg-zinc-600 sticky top-0">
+      <div className="w-full h-20 bg-zinc-800 sticky top-0">
         <div className="container px-1 h-full">
           <div className="flex justify-between items-center h-full">
             <div className='flex'>
