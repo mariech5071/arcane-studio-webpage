@@ -5,10 +5,10 @@ const Home = () => {
   return (
   <div className='bg-black' id='home'>
     <br></br>
-    <div className="h-96 w-full bg-[url('/images/Home.jpg')] bg-cover" id='home'>
+    <div className="h-96 w-full md:bg-[url('/images/Home.jpg')] bg-[url('/images/Home2.png')] bg-cover" id='home'>
       <br></br>
-      <h1 className='text-white font-semibold px-8 pt-8 text-6xl' >Virtual Reality</h1>
-      <p className='text-white text-lg px-8 pt-4 pb-10'>create your own experience</p>
+      <h1 className='text-white font-semibold px-8 pt-8 text-6xl md:visible invisible' >Virtual Reality</h1>
+      <p className='text-white text-lg px-8 pt-4 pb-10 md:visible invisible'>create your own experience</p>
       <div className='grid md:grid-cols-5 grid-cols-2'>
         <div>
           <h2 className='text-base text-white font-semibold px-8 md:visible invisible'>Service</h2>

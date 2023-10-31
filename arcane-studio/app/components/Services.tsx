@@ -8,7 +8,7 @@ const Services = () => {
       <br></br>
       <br></br>
       <div className='text-center pt-5 text-4xl font-bold'>Our Services</div>
-      <p className='text-center md:m-8 m-0 md:px-12 px-2 text-lg' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. Quis enim lobortis scelerisque fermentum. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. </p>
+      <p className='text-center md:m-8 mt-4 md:px-12 px-2 text-lg' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. Quis enim lobortis scelerisque fermentum. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. </p>
     <div className='md:mx-12 mx-0 p-8 md:p-0 grid grid-cols-1 md:grid-cols-2 '>
         <img src='/images/Robot.jpg' className='w-80 md:inline-block m-auto hidden'></img>
         <div className='flex flex-col justify-center items-left'>
