@@ -7,7 +7,7 @@ const Services = () => {
       <div className='text-center text-4xl font-bold'>Our Services</div>
       <p className='md:m-8 mt-4 md:px-12 px-2 text-lg text-justify' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. Quis enim lobortis scelerisque fermentum. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. </p>
     <div className='md:mx-12 mx-0 p-8 md:p-0 grid grid-cols-1 md:grid-cols-2 '>
-        <img src='/images/Robot.jpg' className='w-80 md:inline-block m-auto hidden'></img>
+        <img src='/images/Programming.jpg' className='w-80 md:inline-block m-auto hidden'></img>
         <div className='flex flex-col justify-center items-left'>
           <div className='bg-white border-4 rounded-md shadow-gray-500/40 hover:scale-110'>
             <h1 className='m-6 font-semibold text-2xl '>Service 1</h1>
@@ -22,10 +22,10 @@ const Services = () => {
             <p className='mx-4 mb-4 mr-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu.</p>
           </div>
         </div>
-        <img src='/images/Videogames.jpg' className='w-80 md:inline-block m-auto hidden'></img>
+        <img src='/images/Designing.jpg' className='w-80 md:inline-block m-auto hidden'></img>
       </div>
       <div className='md:mx-12 mx-0 p-8 md:p-0 grid grid-cols-1 md:grid-cols-2'>
-        <img src='/images/Designing.jpg' className='w-80 md:inline-block m-auto hidden'></img>
+        <img src='/images/Videogames.jpg' className='w-80 md:inline-block m-auto hidden'></img>
         <div className='flex flex-col justify-center items-left'>
           <div className='bg-white border-4 rounded-md shadow-gray-500/40 hover:scale-110'>
             <h1 className='m-6 font-semibold text-2xl'>Service 3</h1>
@@ -40,7 +40,7 @@ const Services = () => {
             <p className='ml-4 mb-4 mr-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet porttitor eget dolor morbi non arcu.</p>
           </div>
         </div>
-        <img src='/images/Programming.jpg' className='w-80 md:inline-block m-auto hidden'></img>
+        <img src='/images/Robot.jpg' className='w-80 md:inline-block m-auto hidden'></img>
       </div>
    </div>
   )
