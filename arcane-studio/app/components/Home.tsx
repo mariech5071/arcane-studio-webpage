@@ -12,7 +12,7 @@ const Home = () => {
       <div className='grid md:grid-cols-5 grid-cols-2'>
         <div>
           <h2 className='text-base text-white font-semibold px-8'>Service</h2>
-          <p className='text-white p-4 px-8'>Lorem ipsum dolor sit amet. Massa tincidunt dui ut ornare.</p>
+          <p className='text-white p-4 px-8 overflow-hidden'>Lorem ipsum dolor sit amet. Massa tincidunt dui ut ornare.</p>
         </div>
         <div>
           <h2 className='text-base text-white font-semibold px-4' >Service</h2>
