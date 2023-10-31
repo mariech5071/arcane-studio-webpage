@@ -5,7 +5,7 @@ const Services = () => {
   return (
    <div className='pt-20' id='services'>
       <div className='text-center text-4xl font-bold'>Our Services</div>
-      <p className='md:m-8 mt-4 md:px-12 px-2 text-lg text-justify' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. Quis enim lobortis scelerisque fermentum. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. </p>
+      <p className='md:m-8 mx-4 mt-4 md:px-12 px-4 pt-4 text-lg text-justify' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. Quis enim lobortis scelerisque fermentum. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus. </p>
     <div className='md:mx-12 mx-0 p-8 md:p-0 grid grid-cols-1 md:grid-cols-2 '>
         <img src='/images/Programming.jpg' className='w-80 md:inline-block m-auto hidden'></img>
         <div className='flex flex-col justify-center items-left'>
